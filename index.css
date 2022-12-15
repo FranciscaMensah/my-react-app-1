@@ -1,0 +1,41 @@
+html{
+ margin: 0;
+}
+
+body{
+    background-color: #010e18;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+ display: flex;
+ align-items: center;
+ color: #61DBFB;
+ background-color: #00172b;
+ padding:.7rem;
+}
+
+.nav--logo{
+ width: 50px;
+ height: 50px;
+ margin-right: 1rem;
+}
+
+.nav--title{
+ font-size: 1.5rem;
+}
+
+.main{
+    margin: 1rem 0;
+    padding: .6rem;
+}
+
+.main--list{
+line-height: 2;
+}
+
+.main--list > li::marker{
+    font-size: 1.7rem;
+    color: #61DBFB;;
+}
